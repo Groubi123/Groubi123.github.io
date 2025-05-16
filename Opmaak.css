@@ -1,7 +1,4 @@
-</html><!DOCTYPE html>
-<html>
-<head>
-<style>
+.navbar{
 ul{list-style-type: none;
     padding: 0;
      background-color: darkslategray;
@@ -11,14 +8,39 @@ justify-content: center;
 li a{  
 display: block;
 padding: 8px;
-text-emphasis-color: ;
+text-color: gold;
 
 
 }
+}
+
+body {
+                background-color: darkslategray;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 80vh;
+                margin: 0;
+                padding: 0;
+            }
+            a {
+                color: rgb(255, 183, 49);
+                text-decoration: wavy;
+            }
+ #populair a { 
+    text-decoration: none;
+    color: rgb(255, 193, 99);
+    font: small-caps bold 35px/50px Georgia, serif;
+ }   
 
 
-<head/>
-<body>
+/* <ul>
 
+<h3> home<h3/>
+<h3> collectie<h3/>
+<h3> over ons    <h3/>
+<h3>   contact <h3/>
 
-<body/>
+<ul/> */
+
