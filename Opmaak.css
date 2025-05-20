@@ -1,4 +1,6 @@
-.navbar{
+
+
+
 ul{list-style-type: none;
     padding: 0;
      background-color: darkslategray;
@@ -8,13 +10,19 @@ justify-content: center;
 li a{  
 display: block;
 padding: 8px;
-text-color: gold;
-
+color: gold
+}
+li a:hover {
+background-color: darkgreen;
+}
+.active{
+    background-color: rgb(153, 212, 214);
+    color: darkkhaki;
 
 }
-}
 
-body {
+body
+ {
                 background-color: darkslategray;
                 display: flex;
                 flex-direction: column;
@@ -28,11 +36,12 @@ body {
                 color: rgb(255, 183, 49);
                 text-decoration: wavy;
             }
- #populair a { 
+  { 
     text-decoration: none;
     color: rgb(255, 193, 99);
     font: small-caps bold 35px/50px Georgia, serif;
  }   
+ 
 
 
 /* <ul>
