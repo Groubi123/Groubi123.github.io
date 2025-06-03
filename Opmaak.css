@@ -1,48 +1,51 @@
 
 
-.nagigatie {
-nav {
-        border: 2px solid rgb(207, 159, 0);
-        width: 100%;
-        transition: background-color 0.2s;
-    }
-    ul   {
+.navigatie {
         list-style-type: none;
-        padding: 0;
         background-color: darkslategray;
         display: flex;
         justify-content: center;
-    }
-  
-li {display: block;
-    padding: 8px;
+        padding: 2px;
+        color: gold;
+        font: italic bold 30px/50px georgia, serif;
+        border: 2px solid black;
+    
+           
+        
+}
+
+#logo {
+     display: flex;
+     justify-content: center;
+}
+
+
+.navigatie a {
     color: gold;
     font: italic bold 30px/50px georgia, serif;
-    }
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: 0.2s;
+    
+} 
 
-a:hover {
+    .navigatie a:hover {
     background-color: darkgreen;
     }
-.active{
+
+ .navigatie active {
     background-color: rgb(153, 212, 214);
     color: darkkhaki;
-    } }
+    } 
+
 body {
     background-color: darkslategray;
-    align-items: center;
-    height: 10%;
-    margin: 0;
-    padding: 0;
-            }
-            a {
-                color: rgb(255, 183, 49);
-                text-decoration: wavy;
-            }
-      { 
-    text-decoration: none;
-    color: rgb(255, 193, 99);
-    font: small-caps bold 35px/50px Georgia, serif;
-     }  
+    height: 10%;    
+    text-decoration: wavy
+    color: gold;
+    font: italic bold 30px/50px Georgia, serif;
+    
+ }  
 
      
  
@@ -58,7 +61,7 @@ body {
         justify-content: space-around;
         align-items: center;
         flex-direction: row;
-    ;
+    
       }
           
         .box  {
@@ -68,6 +71,7 @@ body {
               border: 2px solid black;
               margin: 20px;
               text-align: center;
+          font-size: 80%;
            }
            .box img {
             width: 100%;
