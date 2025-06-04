@@ -1,0 +1,235 @@
+        body {
+            background: #f7f7f7;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navigatie {
+            background: #222;
+            padding: 16px 0;
+            text-align: center;
+            scale: 100%;
+        }
+        .navigatie a {
+            color: #fff;
+            text-decoration: none;
+            margin: 18px;
+            font-size: 22px;
+            text-align: center;
+            transition: 0.4s;
+        }
+        .navigatie a:hover {
+            color: #00a6cf;
+        }
+        .navigatie a.actief {
+             color: #00a6cf;
+             font-size: 1.8em;
+        }
+        #logo2 {
+            display: block;
+            margin: 32px auto 12px auto;
+            width: 180px;
+            border-radius: 50%;
+            box-shadow: 0 4px 14px rgba(0, 119, 255, 0.2);
+        }
+        #hoofdkop {
+            text-align: center;
+            color: #353535;
+            margin-bottom: 10px;
+            font-size: 2.2em;
+            letter-spacing: 3px;
+            font-weight: bold;
+        }
+        .overons {
+            background: #fff;
+            max-width: 650px;
+            margin: 24px auto 32px auto;
+            padding: 32px 28px;
+            border-radius: 10px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        #text2 {
+            color: #e0b973;
+            text-align: center;
+            margin-top: 0;
+            font-size: 1.5em;
+            letter-spacing: 2px;
+        }
+        .overons p {
+            color: #444;
+            line-height: 1.7;
+            margin-bottom: 18px;
+        }
+        .footer {
+            text-align: center;
+            color: #aaa;
+            font-size: 1em;
+            padding: 18px 0 12px 0;
+            background: none;
+            bottom: 0;
+        }
+        .boxen {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+        .collectiebox {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 12px rgba(0, 198, 248, 0.1);
+            padding: 24px 18px;
+            text-align: center;
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .afbeeldingen {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+        h2 {
+            font-size: 1.2em
+            color: #444
+        }
+        .prijs {
+            color: #00a6cf;
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+        .contact-container {
+            background: #ffffff;
+            max-width: 500px;
+            margin: 40px auto 32px auto;
+            padding: 32px 28px;
+            border-radius: 10px;
+            box-shadow: 0 2px 12px rgba(0, 204, 255, 0.1);
+        }
+        .contact p {
+            color: #444;
+            line-height: 2em;
+            margin-bottom: 14px;
+        }
+        .contact a {
+            color: #00a6cf;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .contact a:hover {
+            color: #ffbb00;
+        }
+        .collectie-link2 {
+            text-decoration: none;
+            color: inherit;   
+            transition: 0.2s;
+        }
+        .collectie-link2:hover {
+            scale: 1.05;
+        }
+        .horloge-informatie {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .horloge123-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding: 20px;
+        }
+        .terug-link {
+            display: inline-block;
+            margin-top: 18px;
+            color: #00a6cf;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1em;
+            transition: color 0.2s;
+        }
+        .reserveer-button {
+            display: inline-block;
+            margin-top: 22px;
+            background: #ffffff;
+            color: #00a6cf;
+            padding: 12px 32px;
+            border: 2px solid #00a6cf;
+            border-radius: 8px;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-decoration: none;
+            cursor: pointer;
+            transition: 0.3s;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+        } 
+        .reserveer-button:hover {
+            background: #00a6cf;
+            color: #ffffff;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+            scale: 1.05;
+        }
+        .terug-link:hover {
+            color: #ffbb00;
+            text-decoration: underline;
+        }
+        .logo3 {         
+            margin: 32px auto 12px auto;
+            border-radius: 5%;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+            width: 400px;
+            height: 400px;
+            transition: 0.3s;
+        }
+        .logo3:hover {
+            scale: 1.05;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+          
+        }
+        .horloge-informatie p {
+            color: #444;
+            margin-bottom: 18px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .collectie {
+            background: linear-gradient(100deg, #000000 0%, #00a6cf 100%);
+            color: #ffffff;
+            max-width: 600px;
+            margin: auto;
+            padding: 36px;
+            border-radius: 30px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.8);
+            text-align: center;
+            position: relative; 
+        }
+        .collectie h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            letter-spacing: 1.8px;
+        }
+        .collectie p {
+            font-size: 1.15em;
+            margin-bottom: 30px;
+        }
+        .collectie-link {
+            display: inline-block;
+            background: #fff;
+            color: #00a6cf;
+            padding: 12px 24px;
+            border-radius: 20px;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        .collectie-link:hover {
+            background: #00a6cf;
+            color: #fff;
+            scale: 1.05;
+        }
